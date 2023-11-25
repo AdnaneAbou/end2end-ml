@@ -22,7 +22,7 @@ class DataTransformationConfig:
     DataTransformationConfig is responsible for defining the file path for the preprocessing object
     """
 
-    preprocessor_obj_file_path = os.path.join("artifacts", "prepeocessor.pkl")
+    preprocessor_obj_file_path = os.path.join("artifacts", "preprocessor.pkl")
 
 
 
