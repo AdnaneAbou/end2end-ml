@@ -26,7 +26,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the data ingestion method , component")
         try:
-            # Reading the data from any source , Databse , or APIs : 
+            # Reading the data from any source , Database , or APIs : 
             df=pd.read_csv("notebook\data\StudentsPerformance.csv")
             logging.info("READ the dataset as the dataframe")
 
